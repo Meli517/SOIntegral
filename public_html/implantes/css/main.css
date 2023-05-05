@@ -1,0 +1,369 @@
+body {  overflow-x: hidden; padding-top: 0; margin-top: 0;}
+body, html {
+  height: 100%;
+}
+
+h1{font-size: 2.6em;}
+
+h4 span{
+	background-color: #e45358;
+	padding: 3px 10px;
+}
+
+p {
+	font-size: 18px;
+	font-family: 'Roboto', sans-serif;
+}
+
+.txt14{font-size: 14px;}
+.no-border{
+	border:0px dashed #ffffff;
+	background-color: #ffffffbd !important;
+}
+
+.montserrat{
+	font-family: 'Montserrat', sans-serif;
+}
+.roboto{font-family: 'Roboto', sans-serif;}
+
+
+.minH100{
+	min-height: 100vh;
+	height: auto;
+}
+
+.list p{
+	font-size: 15px;
+	line-height: 18px;
+	margin-bottom: 12px;
+	color: #939393;
+}
+
+/*/// Header ///*/
+.bg-light{ background-color: #f5f5f5!important;}
+.bg_transparent{background-color: transparent!important;}
+.bg_degree_01{
+	background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+}
+
+.bg-little-white{background-color: #ffffffbd !important;}
+
+.bg_degree_02{
+	background-image: linear-gradient(to top, #f77062 0%, #fe5196 100%);
+}
+
+.bg_top{
+	background-image: url(../img/bg_implantes.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	min-height: 700px;
+}
+.bg_black{background-color: #000000;}
+.bg_black_01{
+	background-color: #282a27;
+}
+.bg_white{background-color: #ffffff;}
+.bg_clients{
+	background-image: url(../img/bg_clientes.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.txt_white{color: #ffffff;}
+.txt_black{color: #000000;}
+.txt_grey{color: #6c6c6c;}
+
+.txt_primary_color{color: #E45358;}
+.txt_shadow{text-shadow: 1px 1px 1px rgba(0,0,0,0.25);}
+
+.tit_tramite{
+	border: 2px solid #f2cc21;
+	padding: 10px 20px;
+	background-color: #00000080;
+}
+
+.line-y{
+	background-color: #dd9639;
+	padding-bottom: 4px;
+	max-width: 60px;
+	text-align: left;
+	margin: 20px auto 30px 0;
+}
+
+.line-h{
+	background-color: #ffffff;
+	padding-bottom: 2px;
+	max-width: 60px;
+	text-align: center;
+	margin: 20px auto 30px;
+}
+
+
+.btn-primary {
+    color: #ffffff;
+    background-color: #DD9639;
+    border-color: #DD9639;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border-radius: 0px;
+    margin-top: 30px;
+}
+
+
+.btn-primary:hover {
+    color: #ffffff;
+    background-color: #e45358;
+    border-color: #e45358;
+}
+
+.btn-primary:focus, .btn-primary.focus {
+  box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5);
+}
+
+.btn-primary.disabled, .btn-primary:disabled {
+  color: #fff;
+  background-color: #000000;
+  border-color: #000000;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active,
+.show > .btn-primary.dropdown-toggle {
+  color: #fff;
+  background-color: #000000;
+  border-color: #000000;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus,
+.show > .btn-primary.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5);
+}
+
+
+/*/// content ///*/
+
+.content-form{
+	position: absolute;
+	z-index: 99;
+	right: 5%;
+	bottom: 50px;
+	width: 100%;
+	max-width: 500px;
+	background-color: #ffffff;
+}
+
+
+/*/// Footer ///*/
+footer {
+	background-color: #282a27;
+	color: #848484;
+	padding-top: 3em;
+}
+
+footer a {
+	color: #082653;
+}
+
+/*/// form ///*/
+
+.form-control {
+	border: none;
+	border-bottom: 1px solid #dd9639;
+	background: transparent;
+	color: #000!important;
+	border-radius: 0;
+}	
+
+.ptop-5 {
+  padding-top: 3rem !important;
+}
+
+.pbottom-5 {
+  padding-bottom: 3rem !important;
+}
+
+.pall-5{padding: 3rem !important;}
+
+.less-p5{
+  padding: 3rem !important;
+}
+
+.mobile-center{
+  text-align: left!important;
+}
+
+/*/// Responsive design ///*/
+
+@media only screen and (max-width: 1000px) {}
+
+@media only screen and (max-width: 800px) {
+	.ptop-5 {
+  padding-top: 2rem !important;
+}
+
+.pbottom-5 {
+  padding-bottom: 2rem !important;
+  text-align: center;
+}
+
+.box_form{
+	margin-top: 2em;
+    margin-bottom: -2em;
+}
+.pall-5{padding: 2rem !important;}
+}
+
+
+
+@media only screen and (max-width: 640px) {
+
+  .line-y{
+  text-align: center!important;
+  margin: 20px auto 30px ;
+}
+  .less-p5{
+  padding: 10px!important;
+}
+
+.mobile-center{
+  text-align: center!important;
+}
+	.ptop-5 {
+  padding-top: 1rem !important;
+}
+
+.pbottom-5 {
+  padding-bottom: 1rem !important;
+  text-align: center;
+}
+
+.box_form{
+	margin-top: 2em;
+    margin-bottom: -2em;
+}
+
+h1{font-size: 2em;}
+h5{ font-size: 1em; }
+.pall-5{padding: 1rem !important;}
+}
+
+
+
+#messages span:after {
+	  display: inline-block;
+	  animation: dotty steps(1,end) 1s infinite;
+	  content: '';
+	}
+
+	@keyframes dotty {
+	    0%   { content: ''; }
+	    25%  { content: '.'; }
+	    50%  { content: '..'; }
+	    75%  { content: '...'; }
+	    100% { content: ''; }
+	}
+
+/*/// BTN WHATSAPP////*/
+.btn-wp-fixed{
+  bottom: 15px;
+  position: fixed;
+  right: 15px;
+  z-index: 199;
+}  
+
+@media (max-width: 768px) {
+.tit-quienes {
+    font-size: 24px;
+    margin-top: 15px;
+  }
+
+  .btn-wp-fixed{
+     right:5px;
+  }
+}
+
+/*desplegable wp*/
+
+ /* Dropdown */
+
+.dropdown {
+  display: inline-block;
+  position: relative;
+}
+
+.dd-button {
+  display: inline-block;  
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+
+.dd-button:hover {
+}
+
+
+.dd-input {
+  display: none;
+}
+
+.dd-menu {
+  position: absolute;
+  bottom: 100%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 0;
+  margin: 2px 0 0 0;
+  box-shadow: 0 0 6px 0 rgba(0,0,0,0.1);
+  background-color: #ffffff;
+  list-style-type: none;
+  right: 0;
+}
+
+.dd-input + .dd-menu {
+  display: none;
+} 
+
+.dd-input:checked + .dd-menu {
+  display: block;
+} 
+
+.dd-menu .wptwa-description {
+    background-color: rgba(46, 184, 67, 0.9);
+    color: rgba(255, 255, 255, 1);
+    padding: 10px 15px;
+    font-size: 12px;
+    width: 300px;
+}
+.dd-menu li {
+  padding: 10px 20px;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.dd-menu li:hover {
+  background-color: #f6f6f6;
+}
+
+.dd-menu li a {
+  display: block;
+  margin: -10px -20px;
+  padding: 10px 20px;
+  color: #4c4c4c;
+  font-size: 13px;
+  text-decoration: none;
+}
+
+.dd-menu li.divider{
+  padding: 0;
+  border-bottom: 1px solid #cccccc;
+}
+
+.loguito-wp {
+  width: 20px;
+   height: auto;
+   margin-right: 15px;
+}
+
+/**/
+
